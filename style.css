@@ -1,0 +1,263 @@
+@font-face {
+	font-family: 'Playfair Display'; 
+	src: url(/fonts/default.ttf); 
+}
+
+@font-face {
+	font-family: 'Larsseit'; 
+	src: url(/fonts/Larsseit.ttf); 
+}
+
+.page {
+    min-height: 1000px;
+    max-height: 1600px;
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.page-promo{
+    background-image: url('images/back_1.png');
+}
+
+.logo-text {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 190%;
+    /* or 68px */
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.logo-text-header {
+    font-size: 36px;
+    width: 60px;
+    height: 68px;
+}
+
+.button-menu{
+    width: 167px;
+    height: 62px;
+    background: #00C9E0;
+    box-shadow: 5px 15px 40px rgba(0, 201, 224, 0.2);
+    border-radius: 48px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.button_menu__text{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-top: 3px;
+    color: #FFFFFF;
+}
+
+.header {
+    padding: 20px 0;
+    padding-top: 90px;
+}
+
+.wrap {
+    margin: 0 auto;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.search-button {
+    margin-right: 50px;
+}
+
+.promo-wrap{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+}
+
+.promo-title {
+    font-family: Noe Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 153px;
+    letter-spacing: -0.02em;
+    height: 100px;
+
+    color: #FFFFFF;
+}
+
+.promo-disc{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-top: 14px;
+}
+
+.promo-info {
+    width: 643px;
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.promo-bottom {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.scroll-text{
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 190%;
+    /* or 28px */
+
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+    opacity: 0.9;
+    transform: rotate(-90deg);
+
+}
+
+.social-icon-header {
+    margin: 15px;
+}
+
+.br {
+    width: 3px;
+    height: 100px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.page-pick{
+    background-color: rgb(5, 22, 40);
+}
+
+.pick-head {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    
+}
+
+.wrap-pick-head {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.pick-head-text {
+    font-family: Noe Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 110%;
+    /* or 79px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+
+.pick-head-x {
+    width: 16px;
+    margin: 40px;
+}
+
+.pick-head-disc{
+    width: 349px;
+
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    letter-spacing: -0.02em;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.wrap-picker{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    max-width: 1400px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.picker-element{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.picker-element-text{
+    text-decoration: none;
+
+    font-family: Larsseit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    margin: 0 auto;
+    color: #41EAD4;
+}
+
+.picker-line {
+    margin-top: 40px;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.picker-line-checked {
+    height: 4px;
+    margin-top: 36px;
+}
